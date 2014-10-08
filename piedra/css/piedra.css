@@ -1,0 +1,99 @@
+body
+{	
+	background-color: #f3f3f3;
+	font: 16px
+}
+footer{
+	background-color:#105FB4; 
+	color:#f3f3f3;
+	height: 90px;
+	padding: .5em;
+	text-align: center;
+}
+header{
+	background-color:#105FB4;
+	padding: .1em;
+	color: #00FF70;
+	text-align: center;
+
+}
+strong{
+	text-transform: uppercase;
+}
+.author{
+	color: #00FF70;
+	text-decoration: none;
+	transition:color .2s;
+}
+.author:hover{
+	color:#f80; 
+}
+.button
+{
+	background-color: #4DF854; 
+	border: 3px dotted #105FB4;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	color: #105FB4;
+	cursor: pointer;
+	font-size: 1.3em;
+	font-weight: 400;
+	height: 50px;
+	line-height: 50px;
+	margin: .5em;
+	padding:.5em;
+	text-align: center;
+	text-transform: uppercase;
+	transition:all 0.3s;
+}
+.button:active{
+	-webkit-transform:scale(0.8);
+	-moz-transform:scale(0.8);
+	-o-transform:scale(0.8);
+	-ms-transform:scale(0.8);
+	transform:scale(0.8);
+}
+.button:hover{
+	background-color: #22B828;
+	color: #f3f3f3;
+}
+
+.elegir,.result
+{
+	box-sizing: border-box;
+	display: inline-block;
+	padding: .5em;
+	text-align:  center;
+	vertical-align: middle;
+	width:50%;
+}
+.result{
+	font-weight: 700;
+	color:#00FF70;
+	text-shadow:1px 0px 1px rgba(0,0,0,0.3);
+}
+.resultado{
+	color: #105FB4;
+	font-weight: 900;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	-webkit-animation-name:result;
+	-moz-animation-name:result;
+	-ms-animation-name:result;
+	-o-animation-name:result;
+	animation-name:result;
+}
+.loser{
+	color: #FC121B;
+}
+.subtitle{
+	color: #105FB4;
+}
+.tie{
+	color:#FACE20; 
+}
+.win{
+	color:#105FB4;;
+	/*font-weight: 400;*/
+	text-transform: uppercase;
+}
+
